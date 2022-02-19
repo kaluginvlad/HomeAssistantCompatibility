@@ -1,0 +1,18 @@
+{
+    "mqtt": {
+        "host": "localhost",
+        "port": 1883,
+        "user": "",
+        "pass": ""
+    },
+    "devices": [
+        {
+            "device_id": "91",
+            "device_name": "VoltageCorr1",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid1",
+            "device_type": "Voltage"
+        },
+    ]
+}
