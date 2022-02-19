@@ -1,0 +1,4 @@
+converter.log
+
+__pycache__/
+*.py[cod]

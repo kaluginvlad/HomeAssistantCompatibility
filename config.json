@@ -1,0 +1,100 @@
+{
+    "mqtt": {
+        "host": "predprofil-mqtt.minhinlocal",
+        "port": 1883,
+        "user": "",
+        "pass": ""
+    },
+    "devices": [
+        {
+            "device_id": "91",
+            "device_name": "VoltageCorr1",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid1",
+            "device_type": "Voltage"
+        },
+        {
+            "device_id": "92",
+            "device_name": "VoltageCorr2",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid2",
+            "hex_decimal_points": 2,
+            "device_type": "Voltage"
+        },
+        {
+            "device_id": "93",
+            "device_name": "VoltageCorr3",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid3",
+            "device_type": "Voltage"
+        },
+        {
+            "device_id": "94",
+            "device_name": "VoltageCorr4",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid4",
+            "device_type": "Voltage"
+        },
+        {
+            "device_id": "95",
+            "device_name": "VoltageCorr5",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid5",
+            "device_type": "Voltage"
+        },
+        {
+            "device_id": "101",
+            "device_name": "TempCorr1",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid1",
+            "device_type": "Temperature"
+        },
+        {
+            "device_id": "111",
+            "device_name": "FreqCorr1",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid1",
+            "device_type": "FrequencyHz"
+        },
+        {
+            "device_id": "121",
+            "device_name": "PressCorr1",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid1",
+            "device_type": "PressureHpa"
+        },
+        {
+            "device_id": "131",
+            "device_name": "CurrCorr1",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid3",
+            "device_type": "Current"
+        },
+        {
+            "device_id": "141",
+            "device_name": "HumCorr1",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid4",
+            "device_type": "Humidity"
+        },
+        {
+            "device_id": "151",
+            "device_name": "PlugCorr1",
+            "device_model": "SUS",
+            "device_manufacturer": "ABOBA-media",
+            "data_format": "Invalid3",
+            "hex_decimal_points": 0,
+            "device_type": "Plug"
+        }        
+    ]
+}
