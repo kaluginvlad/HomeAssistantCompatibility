@@ -66,7 +66,7 @@ for device_config in conf['devices']:
     config_topic, config_payload = sensor.getConfig()
 
     # Send configuration data to MQTT
-    client.publish(config_topic, config_payload)
+    client.publish(config_topic, config_payload, retain=True)
     
     # Add configured device to subscription list
     devicesTopics[sensor.device.topic] = sensor
